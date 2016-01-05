@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: subPage
 title: Policy
-permalink: /Policy/
+permalink: /policy/
 ---
