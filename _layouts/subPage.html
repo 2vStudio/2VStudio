@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 
-{% include head.html %}
+	{% include head.html %}
 
-<body id="page-top">
-  {% include navSubPage.html %}
-  <p>{{ content }}</p>
-  {% include scripts.html %}
-</body>
+	<body id="page-top">
+
+		{% include navSubPage.html %}
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2 text-left">
+						<h2 class="section-heading">{{ page.title }}</h2>
+						<hr class="light">
+						<p>{{ content }}</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		{% include scripts.html %}
+
+	</body>
 
 </html>
